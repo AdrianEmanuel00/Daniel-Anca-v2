@@ -1,0 +1,24 @@
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Dependencies and generated output
+node_modules/
+dist/
+.cache/
+
+# Manual deploy artifacts
+deploy/
+deploy.zip
+
+# Local Codex project workspace notes
+AGENTS.md
+AGENTS/
+CONTEXT/
+TASKS/
