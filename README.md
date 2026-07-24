@@ -24,7 +24,7 @@ python -m http.server 8000
 
 ```bash
 git status
-git add index.html assets README.md README-CLIENT.md .cpanel.yml .gitignore CONTEXT
+git add index.html assets README.md README-CLIENT.md .cpanel.yml .gitignore
 git commit -m "Update site"
 ```
 
@@ -36,7 +36,7 @@ git push origin main
 
 ## First-Time Git Setup
 
-Create a private Git repository on GitHub, GitLab, or Bitbucket, then connect it locally:
+Create a Git repository on GitHub, GitLab, or Bitbucket, then connect it locally:
 
 ```bash
 git remote add origin <REMOTE_URL>
@@ -45,6 +45,16 @@ git push -u origin main
 ```
 
 Use the HTTPS or SSH clone URL shown by your Git provider.
+
+## Seating Data
+
+Guest seating data is stored in:
+
+```text
+assets/data/seating.js
+```
+
+Regenerate it from the latest Excel guest list before publishing seating updates.
 
 ## cPanel Pull Deployment
 

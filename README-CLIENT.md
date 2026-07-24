@@ -11,11 +11,8 @@ Site de invitatie pentru nunta lui Daniel si Anca, programata pentru **26 Iulie 
 - Slideshow hero cu 4 fotografii
 - Countdown interactiv pana la data nuntii
 - Galerie foto cu lightbox
-- Formular RSVP complet cu:
-  - Optiune pentru confirmare participare sau refuz
-  - Selectie numar de invitati (1-8 persoane)
-  - Alegere meniu pentru fiecare persoana (Carne, Vegetarian, Meniu de copii)
-  - Mesaj optional
+- Cautare interactiva pentru asezarea invitatilor la mese
+- Afisare masa si invitatii de la aceeasi masa
 - Butoane directe pentru navigare Google Maps si Waze
 - Design responsive (functioneaza pe telefon, tableta, desktop)
 - Ecran de incarcare animat
@@ -27,7 +24,7 @@ Site de invitatie pentru nunta lui Daniel si Anca, programata pentru **26 Iulie 
 3. **Locatie** - Adresa si butoane pentru navigare GPS
 4. **Detalii** - Orarul evenimentului (cununie si receptie)
 5. **Galerie** - Fotografii cu mirii
-6. **RSVP** - Formular de confirmare prezenta
+6. **Asezare la mese** - Cautare invitat si masa
 7. **Citat** - Un citat despre dragoste
 8. **Footer** - Numele mirilor si data
 
@@ -71,21 +68,17 @@ Daniel-Anca-v2/
         googlemaps.png
         waze.png
         h_la_brazi.png
+    data/
+      seating.js          <- Lista invitatilor si mesele generate din Excel
   .cpanel.yml             <- Configurare deploy Git pentru cPanel
   README-CLIENT.md        <- Acest fisier
 ```
 
 ## Configurari
 
-### URL-ul Google Apps Script (RSVP)
+### Lista invitatilor
 
-Formularul RSVP trimite datele catre Google Sheets folosind URL-ul configurat in fisierul HTML:
-
-```javascript
-const RSVP_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxeZJR-YNqNNe4yuw07Cf8zEx-uxat3jgddCU-nYTBV9qEnCY09JVbR47_jFrRhhMX_xQ/exec';
-```
-
-Acest URL este deja configurat si functional.
+Lista pentru cautarea meselor este in `assets/data/seating.js` si este generata din fisierul Excel cu invitati.
 
 ### Data nuntii
 
@@ -101,4 +94,4 @@ Pentru modificari sau intrebari tehnice, contacteaza dezvoltatorul.
 
 ---
 
-Versiunea 2.0 - Aprilie 2026
+Versiunea 2.1 - Iulie 2026
