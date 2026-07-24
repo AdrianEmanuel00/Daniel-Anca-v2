@@ -53,7 +53,7 @@ Varianta recomandata este publicarea prin Git si cPanel:
 5. Apasa `Update from Remote`
 6. Apasa `Deploy HEAD Commit`
 
-Fisierul `.cpanel.yml` copiaza automat `index.html` si `assets/` in `public_html`.
+Fisierul `.cpanel.yml` copiaza automat `index.html` si `assets/` in folderul subdomeniului `daniel-anca.aerdigital.ro`.
 
 ## Structura fisierelor
 

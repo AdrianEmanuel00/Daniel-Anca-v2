@@ -61,12 +61,12 @@ repositories/daniel-anca-v2
 4. In `Manage` -> `Pull or Deploy`, click `Update from Remote`.
 5. Click `Deploy HEAD Commit`.
 
-The `.cpanel.yml` file copies `index.html` and `assets/` to:
+The `.cpanel.yml` file copies `index.html` and `assets/` to the subdomain document root:
 
 ```bash
-$HOME/public_html/
+$HOME/daniel-anca.aerdigital.ro/
 ```
 
-If this site lives in an addon domain folder, change `DEPLOYPATH` in `.cpanel.yml` before deploying.
+If cPanel shows a different `Document Root` for the subdomain, change `DEPLOYPATH` in `.cpanel.yml` before deploying.
 
 Official cPanel flow: `Update from Remote` pulls new commits, then `Deploy HEAD Commit` runs `.cpanel.yml`.

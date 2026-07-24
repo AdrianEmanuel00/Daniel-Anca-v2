@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=$HOME/public_html/
+    - export DEPLOYPATH=$HOME/daniel-anca.aerdigital.ro/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
