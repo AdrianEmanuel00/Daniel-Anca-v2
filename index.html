@@ -498,6 +498,44 @@
       animation: heroReveal 1s 1.5s var(--ease-out-expo) forwards;
     }
 
+    .hero .seating-open-btn {
+      margin-top: 1.05rem;
+      width: min(340px, 88vw);
+      min-height: 54px;
+      padding: 0.65rem 0.85rem 0.65rem 1rem;
+      background: rgba(26, 47, 42, 0.34);
+      border-color: rgba(240, 230, 200, 0.45);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 16px 50px rgba(0, 0, 0, 0.18);
+      opacity: 0;
+      transform: translateY(30px);
+      animation: heroReveal 1s 1.65s var(--ease-out-expo) forwards;
+    }
+
+    .hero .seating-open-btn:hover {
+      background: rgba(45, 74, 66, 0.52);
+      transform: translateY(-3px);
+    }
+
+    .hero .seating-open-kicker {
+      font-size: 0.58rem;
+      letter-spacing: 0.28em;
+      color: var(--gold-light);
+    }
+
+    .hero .seating-open-title {
+      font-size: clamp(1.05rem, 3.2vw, 1.35rem);
+      color: var(--cream);
+    }
+
+    .hero .seating-open-icon {
+      width: 36px;
+      height: 36px;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--gold-light);
+    }
+
     @keyframes heroReveal {
       to {
         opacity: 1;
@@ -508,7 +546,7 @@
     /* Scroll Indicator */
     .hero-scroll {
       position: absolute;
-      bottom: 3rem;
+      bottom: 0.85rem;
       left: 50%;
       transform: translateX(-50%);
       display: flex;
@@ -1025,25 +1063,6 @@
     /* ============================================
        SEATING LOOKUP
        ============================================ */
-    .seating-cta-section {
-      background: linear-gradient(180deg, var(--ivory) 0%, var(--cream-dark) 100%);
-      padding: 3.75rem 1.5rem 3.2rem;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .seating-cta-section::before {
-      content: '';
-      position: absolute;
-      left: 50%;
-      bottom: 0;
-      width: min(760px, 86vw);
-      height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(201, 169, 98, 0.75), transparent);
-      transform: translateX(-50%);
-    }
-
     .seating-open-btn {
       width: min(520px, 100%);
       min-height: 84px;
@@ -1644,13 +1663,14 @@
         aspect-ratio: 16/9;
       }
 
-      .seating-cta-section {
-        padding: 3rem 1.25rem 2.7rem;
-      }
-
       .seating-open-btn {
         min-height: 78px;
         padding: 0.95rem 1rem 0.95rem 1.15rem;
+      }
+
+      .hero .seating-open-btn {
+        width: min(320px, 92vw);
+        min-height: 54px;
       }
 
       .seating-open-icon {
@@ -1724,6 +1744,11 @@
 
       .seating-open-kicker {
         letter-spacing: 0.28em;
+      }
+
+      .hero .seating-open-btn {
+        margin-top: 0.9rem;
+        row-gap: 0.35rem;
       }
 
       .seating-modal-title {
@@ -1815,28 +1840,24 @@ Singura intrebare care ramane este: voi veniti?</p>
       </div>
       <p class="hero-date">26 Iulie 2026</p>
       <p class="hero-location">"La Brazi", Vama, Suceava</p>
+      <button type="button" class="seating-open-btn" id="confirmare" aria-haspopup="dialog" aria-controls="seatingModal">
+        <span class="seating-open-kicker">Asezare la mese</span>
+        <span class="seating-open-title">Afla la ce masa esti</span>
+        <span class="seating-open-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="M16.5 16.5L21 21"></path>
+            <path d="M11 8v6"></path>
+            <path d="M8 11h6"></path>
+          </svg>
+        </span>
+      </button>
     </div>
 
     <div class="hero-scroll">
       <div class="scroll-mouse"></div>
       <span>Scroll</span>
     </div>
-  </section>
-
-  <!-- Seating CTA Section -->
-  <section class="seating-cta-section section" id="confirmare">
-    <button type="button" class="seating-open-btn" id="seatingOpenBtn" aria-haspopup="dialog" aria-controls="seatingModal">
-      <span class="seating-open-kicker">Asezare la mese</span>
-      <span class="seating-open-title">Afla la ce masa esti</span>
-      <span class="seating-open-icon" aria-hidden="true">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="7"></circle>
-          <path d="M16.5 16.5L21 21"></path>
-          <path d="M11 8v6"></path>
-          <path d="M8 11h6"></path>
-        </svg>
-      </span>
-    </button>
   </section>
 
   <!-- Countdown Section -->
@@ -2240,7 +2261,7 @@ Singura intrebare care ramane este: voi veniti?</p>
     // SEATING LOOKUP
     // ============================================
     const seatingGuests = Array.isArray(window.SEATING_GUESTS) ? window.SEATING_GUESTS : [];
-    const seatingOpenBtn = document.getElementById('seatingOpenBtn');
+    const seatingOpenBtn = document.getElementById('confirmare');
     const seatingModal = document.getElementById('seatingModal');
     const seatingModalClose = document.getElementById('seatingModalClose');
     const seatingSearchForm = document.getElementById('seatingSearchForm');
