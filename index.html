@@ -503,18 +503,23 @@
       width: min(340px, 88vw);
       min-height: 54px;
       padding: 0.65rem 0.85rem 0.65rem 1rem;
-      background: rgba(26, 47, 42, 0.34);
-      border-color: rgba(240, 230, 200, 0.45);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      box-shadow: 0 16px 50px rgba(0, 0, 0, 0.18);
+      background: transparent;
+      border-color: rgba(240, 230, 200, 0.62);
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+      box-shadow: none;
       opacity: 0;
       transform: translateY(30px);
       animation: heroReveal 1s 1.65s var(--ease-out-expo) forwards;
     }
 
+    .hero .seating-open-btn::before {
+      background: transparent;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    }
+
     .hero .seating-open-btn:hover {
-      background: rgba(45, 74, 66, 0.52);
+      background: rgba(255, 255, 255, 0.07);
       transform: translateY(-3px);
     }
 
@@ -527,12 +532,13 @@
     .hero .seating-open-title {
       font-size: clamp(1.05rem, 3.2vw, 1.35rem);
       color: var(--cream);
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.32);
     }
 
     .hero .seating-open-icon {
       width: 36px;
       height: 36px;
-      background: rgba(255, 255, 255, 0.08);
+      background: transparent;
       color: var(--gold-light);
     }
 
