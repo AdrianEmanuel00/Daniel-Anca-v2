@@ -1,19 +1,19 @@
-// Generated from invitatii pentru Adi.xlsx. Do not edit manually.
+// Generated from invitati_x_mese_.xlsx. Do not edit manually.
 window.SEATING_GUESTS = [
   {
-    "name": "Spiridon Lori",
+    "name": "Lori Spiridon",
     "table": "1"
   },
   {
-    "name": "Spiridon Andrei",
+    "name": "Andrei Spiridon",
     "table": "1"
   },
   {
-    "name": "Dumitrescu Beniamin",
+    "name": "Beni Dumitrescu",
     "table": "1"
   },
   {
-    "name": "Nagy Robert",
+    "name": "Robert Nagy",
     "table": "1"
   },
   {
@@ -22,10 +22,6 @@ window.SEATING_GUESTS = [
   },
   {
     "name": "Jula Elias",
-    "table": "1"
-  },
-  {
-    "name": "Niculiță Vlad",
     "table": "1"
   },
   {
@@ -61,59 +57,71 @@ window.SEATING_GUESTS = [
     "table": "2"
   },
   {
-    "name": "Rață Andi",
+    "name": "Rata Ada",
     "table": "3"
   },
   {
-    "name": "Rață Mariana",
+    "name": "Halfy Nasif",
     "table": "3"
   },
   {
-    "name": "Palaghiu Claudiu",
+    "name": "Bajariunas Cerasela",
     "table": "3"
-  },
-  {
-    "name": "Palaghiu Ludmila",
-    "table": "3"
-  },
-  {
-    "name": "Stanca Iulia",
-    "table": "3"
-  },
-  {
-    "name": "Stanca Dănuț",
-    "table": "3"
-  },
-  {
-    "name": "Ursu Lucian",
-    "table": "3"
-  },
-  {
-    "name": "Ursu Sabina",
-    "table": "3"
-  },
-  {
-    "name": "Rață Ada",
-    "table": "4"
-  },
-  {
-    "name": "Nassif Mohamad",
-    "table": "4"
-  },
-  {
-    "name": "Bajariunas Iulia",
-    "table": "4"
   },
   {
     "name": "Bajariunas Darius",
+    "table": "3"
+  },
+  {
+    "name": "Bară Philip",
+    "table": "3"
+  },
+  {
+    "name": "Haidau Andreea",
+    "table": "3"
+  },
+  {
+    "name": "Rata Andi",
+    "table": "3"
+  },
+  {
+    "name": "Rata Mariana",
+    "table": "3"
+  },
+  {
+    "name": "Sandu Angela",
     "table": "4"
   },
   {
-    "name": "Bâra Philip",
+    "name": "Ferent Lacramioara",
     "table": "4"
   },
   {
-    "name": "Haidău Andreea",
+    "name": "Sandu Marius",
+    "table": "4"
+  },
+  {
+    "name": "Panainte Irinel",
+    "table": "4"
+  },
+  {
+    "name": "Meirosu Brandusa",
+    "table": "4"
+  },
+  {
+    "name": "Meirosu Adelin",
+    "table": "4"
+  },
+  {
+    "name": "Rata Mirela",
+    "table": "4"
+  },
+  {
+    "name": "Antonesi Constantin",
+    "table": "4"
+  },
+  {
+    "name": "Antonesi Diana",
     "table": "4"
   },
   {
@@ -129,7 +137,7 @@ window.SEATING_GUESTS = [
     "table": "5"
   },
   {
-    "name": "Popa Iemima +1",
+    "name": "Popa Iemima",
     "table": "5"
   },
   {
@@ -137,15 +145,15 @@ window.SEATING_GUESTS = [
     "table": "5"
   },
   {
-    "name": "Luță Sebi",
+    "name": "Luta Sebi",
     "table": "5"
   },
   {
-    "name": "Luță Andreea",
+    "name": "Luta Andreea",
     "table": "5"
   },
   {
-    "name": "Luță Emma",
+    "name": "Luta Emma",
     "table": "5"
   },
   {
@@ -153,63 +161,59 @@ window.SEATING_GUESTS = [
     "table": "5"
   },
   {
-    "name": "Sandu Angela",
+    "name": "Moldovan Florin",
     "table": "6"
   },
   {
-    "name": "Ferenț Lăcrămioara",
+    "name": "Moldovan Irina",
     "table": "6"
   },
   {
-    "name": "Sandu Marius",
+    "name": "Palaghiu Claudiu",
     "table": "6"
   },
   {
-    "name": "Panainte Irinel",
+    "name": "Palaghiu Ludmila",
     "table": "6"
   },
   {
-    "name": "Meiroșu Brândușa",
+    "name": "Stanca Iulia",
     "table": "6"
   },
   {
-    "name": "Meiroșu Adelin",
+    "name": "Stanca Dănuț",
     "table": "6"
   },
   {
-    "name": "Rață Mirela",
+    "name": "Lucian Ursu",
     "table": "6"
   },
   {
-    "name": "Antonesi Constantin",
+    "name": "Ursu Sabina",
     "table": "6"
   },
   {
-    "name": "Antonesi Diana",
-    "table": "6"
-  },
-  {
-    "name": "Ungurean Domnica",
+    "name": "Ungurian Domnica",
     "table": "7"
   },
   {
-    "name": "Ungurean Traian",
+    "name": "Ungurian Traian",
     "table": "7"
   },
   {
-    "name": "Nistrean Slava",
+    "name": "Nistrian Slava",
     "table": "7"
   },
   {
-    "name": "Nistrean Maria",
+    "name": "Nistrian Maria",
     "table": "7"
   },
   {
-    "name": "Toderean Rodica",
+    "name": "Rodica Toderean",
     "table": "7"
   },
   {
-    "name": "Toderean Ion",
+    "name": "Ion Toderran",
     "table": "7"
   },
   {
@@ -217,19 +221,19 @@ window.SEATING_GUESTS = [
     "table": "7"
   },
   {
-    "name": "Cercel Grișa",
+    "name": "Cercel Grisa",
     "table": "7"
   },
   {
-    "name": "Haidău Maria",
+    "name": "Haidau Maria",
     "table": "8"
   },
   {
-    "name": "Rață Adriana",
+    "name": "Rata Adriana",
     "table": "8"
   },
   {
-    "name": "Rață Daniel",
+    "name": "Rata Daniel",
     "table": "8"
   },
   {
@@ -241,11 +245,11 @@ window.SEATING_GUESTS = [
     "table": "8"
   },
   {
-    "name": "Bâra Vasile",
+    "name": "Bara Vasile",
     "table": "8"
   },
   {
-    "name": "Bâra Nelly",
+    "name": "Bara Nelly",
     "table": "8"
   },
   {
@@ -277,75 +281,79 @@ window.SEATING_GUESTS = [
     "table": "9"
   },
   {
-    "name": "Vălcăneață Silviu",
+    "name": "Silviu Vălcăneață",
     "table": "9"
   },
   {
-    "name": "Vălcăneață Ana",
+    "name": "Ana Vălcăneață",
     "table": "9"
   },
   {
-    "name": "Garai Sergiu",
+    "name": "Gutcal Lavinia",
     "table": "10"
   },
   {
-    "name": "Garai Rodica",
+    "name": "Gaisan Miroslav",
     "table": "10"
   },
   {
-    "name": "Husariu Cristina",
+    "name": "Gaisan Daniela",
     "table": "10"
   },
   {
-    "name": "Husariu Emil",
+    "name": "Sașa Toderean",
     "table": "10"
   },
   {
-    "name": "Iamandi Mădălin",
+    "name": "Iulia Toderean",
     "table": "10"
   },
   {
-    "name": "Iamandi Cătălina",
+    "name": "Slavic Chevka",
     "table": "10"
   },
   {
-    "name": "Gheolduș Gabi",
+    "name": "Liliana Chevka",
     "table": "10"
   },
   {
-    "name": "Vasile Bianca",
+    "name": "Ghita Cercel",
     "table": "10"
   },
   {
-    "name": "Boca Silvia",
+    "name": "Petrehusi Mihaita",
     "table": "11"
   },
   {
-    "name": "Drebitcă Valeria",
+    "name": "Petrehusi Silvia",
     "table": "11"
   },
   {
-    "name": "Cobiliță Vasiuta",
+    "name": "Petrehusi Valeriu",
     "table": "11"
   },
   {
-    "name": "Boca Mărioara",
+    "name": "Petrehusi Elena",
     "table": "11"
   },
   {
-    "name": "Ștefan Dorina",
+    "name": "Petrehusi Florin",
     "table": "11"
   },
   {
-    "name": "Doina Romaniuc",
+    "name": "Petrehusi Olga",
     "table": "11"
   },
   {
-    "name": "Petrehusi Emilia",
+    "name": "Boca Avel",
     "table": "11"
   },
   {
-    "name": "Istrate Minuța",
+    "name": "Boca Tamara",
+    "table": "11"
+  },
+  {
+    "name": "Istrate Minuta",
     "table": "12"
   },
   {
@@ -365,87 +373,87 @@ window.SEATING_GUESTS = [
     "table": "12"
   },
   {
-    "name": "Moroșan Lavinia",
+    "name": "Lavinia Morosan",
     "table": "12"
   },
   {
-    "name": "Moroșan Vlad",
+    "name": "Morosan Ioana",
     "table": "12"
   },
   {
-    "name": "Tilihoi Eduard",
+    "name": "Morosan Vlad",
+    "table": "12"
+  },
+  {
+    "name": "Boca Silvia",
     "table": "13"
   },
   {
-    "name": "Tilihoi Camelia",
+    "name": "Drebitca Valeria",
     "table": "13"
   },
   {
-    "name": "Butnaru Florin",
+    "name": "Matusa Vasiua",
     "table": "13"
   },
   {
-    "name": "Butnaru Daniela",
+    "name": "Boca Marioara",
     "table": "13"
   },
   {
-    "name": "Cașcaval Vasile",
+    "name": "Dorina Stefan",
     "table": "13"
   },
   {
-    "name": "Cașcaval Domnica",
+    "name": "Doina Romaniuc",
     "table": "13"
   },
   {
-    "name": "Ichim Gabi",
+    "name": "Petrehusi Emilia",
     "table": "13"
   },
   {
-    "name": "Ichim Elena",
-    "table": "13"
-  },
-  {
-    "name": "Tănase Nela",
+    "name": "Garai Sergiu",
     "table": "14"
   },
   {
-    "name": "Tănase Cristi",
+    "name": "Garai Rodica",
     "table": "14"
   },
   {
-    "name": "Păduraru Mirela",
+    "name": "Husariu Cristina",
     "table": "14"
   },
   {
-    "name": "Păduraru Liviu",
+    "name": "Husariu Emil",
     "table": "14"
   },
   {
-    "name": "Stochici Adrian",
+    "name": "Madalin Iamandi",
     "table": "14"
   },
   {
-    "name": "Stochici Dana",
+    "name": "Catalina Iamandi",
     "table": "14"
   },
   {
-    "name": "Huiban Nelu",
+    "name": "Gabi Gheolduș",
     "table": "14"
   },
   {
-    "name": "Huiban Tincuța",
+    "name": "Bianca Vasile",
     "table": "14"
   },
   {
-    "name": "Meiroșu Eduard",
+    "name": "Meirosu Eduard",
     "table": "15"
   },
   {
-    "name": "Meiroșu Albert",
+    "name": "Meirosu Albert",
     "table": "15"
   },
   {
-    "name": "Niță Lucas",
+    "name": "Nita Lucas",
     "table": "15"
   },
   {
@@ -453,7 +461,7 @@ window.SEATING_GUESTS = [
     "table": "15"
   },
   {
-    "name": "Ferenț Lucas",
+    "name": "Ferent Lucas",
     "table": "15"
   },
   {
@@ -465,75 +473,75 @@ window.SEATING_GUESTS = [
     "table": "15"
   },
   {
-    "name": "Păduraru Mara",
+    "name": "Mara Paduraru",
     "table": "15"
   },
   {
-    "name": "Sandu Alisia",
+    "name": "Sandu Alisiia",
     "table": "15"
   },
   {
-    "name": "Guțcal Lavinia",
+    "name": "Tanase Nela",
     "table": "16"
   },
   {
-    "name": "Gaisan Miroslav",
+    "name": "Tanase Cristi",
     "table": "16"
   },
   {
-    "name": "Gaisan Daniela",
+    "name": "Mirela Paduraru",
     "table": "16"
   },
   {
-    "name": "Toderean Sașa",
+    "name": "Liviu Paduraru",
     "table": "16"
   },
   {
-    "name": "Toderean Iulia",
+    "name": "Stochici Adrian",
     "table": "16"
   },
   {
-    "name": "Cevka Slavic",
+    "name": "Stochici Dana",
     "table": "16"
   },
   {
-    "name": "Cevka Liliana",
+    "name": "Huiban Nelu",
     "table": "16"
   },
   {
-    "name": "Cercel Ghiță",
+    "name": "Huiban Tincuta",
     "table": "16"
   },
   {
-    "name": "Petrehusi Mihăiță",
+    "name": "Tilihoi Eduard",
     "table": "17"
   },
   {
-    "name": "Petrehusi Silvia",
+    "name": "Tilihoi Camelia",
     "table": "17"
   },
   {
-    "name": "Petrehusi Valeriu",
+    "name": "Butnaru Florin",
     "table": "17"
   },
   {
-    "name": "Petrehusi Elena",
+    "name": "Butnaru Daniela",
     "table": "17"
   },
   {
-    "name": "Petrehusi Florin",
+    "name": "Vasile Cascaval",
     "table": "17"
   },
   {
-    "name": "Petrehusi Olga",
+    "name": "Domnica Cascaval",
     "table": "17"
   },
   {
-    "name": "Boca Avel",
+    "name": "Ichim Gabi",
     "table": "17"
   },
   {
-    "name": "Boca Tamara",
+    "name": "Ichim Elena",
     "table": "17"
   },
   {
@@ -593,47 +601,51 @@ window.SEATING_GUESTS = [
     "table": "19"
   },
   {
-    "name": "Drebitcă Valentina",
+    "name": "Drebitca Valentina",
     "table": "19"
   },
   {
-    "name": "Guțcal Daniel",
+    "name": "Niculiță Vlad",
+    "table": "19"
+  },
+  {
+    "name": "Gutcal Daniel",
     "table": "20"
   },
   {
-    "name": "Cercel Anastasia",
+    "name": "Anastasia Cercel",
     "table": "20"
   },
   {
-    "name": "Galatiuk Nadea",
+    "name": "Nadea Galatiuk",
     "table": "20"
   },
   {
-    "name": "Toderean Eva",
+    "name": "Eva Toderean",
     "table": "20"
   },
   {
-    "name": "Cevka Eduard",
+    "name": "Eduard Cevca",
     "table": "20"
   },
   {
-    "name": "Toderean Artur",
+    "name": "Artur Toderean",
     "table": "20"
   },
   {
-    "name": "Cevka Sofia",
+    "name": "Sofia Chevka",
     "table": "20"
   },
   {
-    "name": "Cevka Daniel",
+    "name": "Daniel Cevka",
     "table": "20"
   },
   {
-    "name": "Miloș Bianca",
+    "name": "Milos Bianca",
     "table": "21"
   },
   {
-    "name": "Miloș Alin",
+    "name": "Milos Alin",
     "table": "21"
   },
   {
@@ -669,107 +681,107 @@ window.SEATING_GUESTS = [
     "table": "22"
   },
   {
-    "name": "Grama Emi",
+    "name": "Emi Gramma",
     "table": "22"
   },
   {
-    "name": "Grama Denisa",
+    "name": "Denisa Gramma",
     "table": "22"
   },
   {
-    "name": "Ilinca Laura",
+    "name": "Laura Ilinca",
     "table": "23"
   },
   {
-    "name": "Popescu Ervin",
+    "name": "Ervin Popescu",
     "table": "23"
   },
   {
-    "name": "Hojbotă Daniel",
+    "name": "Hojbota Daniel",
     "table": "23"
   },
   {
-    "name": "Stoian Cosmin",
+    "name": "Cosmin Stoian",
     "table": "23"
   },
   {
-    "name": "Dimoiu Sara",
+    "name": "Sara Dimoiu",
     "table": "23"
   },
   {
-    "name": "Untea Robert",
+    "name": "Robert Untea",
     "table": "23"
   },
   {
-    "name": "Dina Andreea",
+    "name": "Andreea Dina",
     "table": "24"
   },
   {
-    "name": "Dina Edi",
+    "name": "Edi Dina",
     "table": "24"
   },
   {
-    "name": "Dide Geana",
+    "name": "Geana Dide",
     "table": "24"
   },
   {
-    "name": "Dide Alex",
+    "name": "Alex Dide",
     "table": "24"
   },
   {
-    "name": "Rotaru Adi",
+    "name": "Adi Rotaru",
     "table": "24"
   },
   {
-    "name": "Rotaru Sara",
+    "name": "Sara Olivia Rotaru",
     "table": "24"
   },
   {
-    "name": "Dina Dani",
+    "name": "Dani Dina",
     "table": "25"
   },
   {
-    "name": "Dina Rahela",
+    "name": "Rahela Dina",
     "table": "25"
   },
   {
-    "name": "Dumitru Petreacă Ionatan",
+    "name": "John Dumitru Petreacă",
     "table": "25"
   },
   {
-    "name": "Dragu Dori",
+    "name": "Dori Dragu",
     "table": "25"
   },
   {
-    "name": "Dragu Andreea",
+    "name": "Andreea Dragu",
     "table": "25"
   },
   {
-    "name": "Dumitru Petreacă Sara",
+    "name": "Sara Dumitru Petreacă",
     "table": "25"
   },
   {
-    "name": "Paraschiv Eduard",
+    "name": "Eduard Paraschiv",
     "table": "26"
   },
   {
-    "name": "Tacu Cristian",
+    "name": "Cristi Tacu",
     "table": "26"
   },
   {
-    "name": "Tacu Alexia",
+    "name": "Alexia Tacu",
     "table": "26"
   },
   {
-    "name": "Petrice Manuel",
+    "name": "Manuel Petrice",
     "table": "26"
   },
   {
-    "name": "Petrice Naomi",
+    "name": "Naomi Petrice",
     "table": "26"
   },
   {
-    "name": "Petrice Adelina",
+    "name": "Adelina Petrice",
     "table": "26"
   },
   {
@@ -777,31 +789,31 @@ window.SEATING_GUESTS = [
     "table": "27"
   },
   {
-    "name": "Boșca Robert",
+    "name": "Bosca Robert",
     "table": "27"
   },
   {
-    "name": "Costaș Valeriu",
+    "name": "Valera Kostas",
     "table": "27"
   },
   {
-    "name": "Costin Gabriela",
+    "name": "Gabriela Costin",
     "table": "27"
   },
   {
-    "name": "Drebitcă Florin",
+    "name": "Drebitca Florin",
     "table": "27"
   },
   {
-    "name": "Ștefan Daniel",
+    "name": "Daniel Stefan",
     "table": "27"
   },
   {
-    "name": "Șandru Sofia",
+    "name": "Sofia Sandru",
     "table": "28"
   },
   {
-    "name": "Guțcal Karina",
+    "name": "Gutcal Karina",
     "table": "28"
   },
   {
@@ -837,19 +849,19 @@ window.SEATING_GUESTS = [
     "table": "29"
   },
   {
-    "name": "Toderean Roman",
+    "name": "Roman Toderean",
     "table": "29"
   },
   {
-    "name": "Toderean Ștefan",
+    "name": "Stepan Toderean",
     "table": "29"
   },
   {
-    "name": "Cevka Alina",
+    "name": "Alina Chevka",
     "table": "29"
   },
   {
-    "name": "Toderean Renata",
+    "name": "Renata Toderean",
     "table": "29"
   }
 ];
